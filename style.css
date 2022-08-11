@@ -99,15 +99,56 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label, form p {
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 10px 0 5px;
 }
 
-form input {
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.horario {
+    margin: 10px;
+}
+
+.checkbox {
+    margin: 20px 5px ;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 10px 20px;
 }
